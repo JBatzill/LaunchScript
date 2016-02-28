@@ -53,7 +53,7 @@ namespace Launch_Script.Executer.Commands
         public override ICommand parse(List<string> tokens)
         {
             if (!this.cmdTokenMatches(tokens)) throw new ParserException("Unknown error occured [LaunchParser.parse]");
-            if (tokens.Count < 2 || tokens.Count > 4) throw new ParserException("Invalid numer of arguments!");
+            if (tokens.Count < 2 || tokens.Count > 4) throw new ParserException("Invalid number of arguments!");
             if (String.IsNullOrEmpty(tokens[1])) throw new ParserException("Invalid URL!");
             if (tokens.Count >= 3 && tokens[2] == null) throw new ParserException("Invalid shell arguments!");
             if (tokens.Count == 4 && tokens[3] == null) throw new ParserException("Invalid shell working directory");

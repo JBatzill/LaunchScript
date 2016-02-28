@@ -22,7 +22,14 @@
 #launch cmd "" "C:\cygwin64\"
 #launch cmd
 #launch "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"  "--profile-directory=Default --app-id=hmjkmjkepdijhoojdojkdfohbdgmmhki"
-launch "C:\cygwin64\Cygwin.bat" "" "C:\cygwin64\"
+#launch "C:\cygwin64\Cygwin.bat" "" "C:\cygwin64\"
 #launch "C:\cygwin64\bin\mintty.exe" "-i /Cygwin-Terminal.ico - ~" "C:\cygwin64\bin\"
 #launch "C:\Program Files (x86)\Git\bin\sh.exe" "--login" "C:\Users\Johannes\SkyDrive\Dokumente\Projekte\PCR\PCR\"
 #delay 2000
+
+browser "www.google.de"
+delay 1000
+type "hallo popelkopf" "{ENTER}"
+type "{BS}"
+delay 500
+type "{BS}"

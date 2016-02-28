@@ -11,7 +11,7 @@ namespace Launch_Script.Executer
     internal static class LaunchScriptParser
     {
         private static List<IParser> PARSER = new List<IParser>() { new BrowserParser(), new CommentParser(), new LaunchParser(), new SnapParser(), new SettingsParser(), new DelayParser(),
-                                                                    new EmptyParser() };   
+                                                                    new EmptyParser(), new TypeParser() };   
 
         public static List<ICommand> parse(string file)
         {

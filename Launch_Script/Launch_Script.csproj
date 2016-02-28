@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -50,6 +51,7 @@
     <Compile Include="Executer\Commands\Commands\Empty.cs" />
     <Compile Include="Executer\Commands\Commands\Launch.cs" />
     <Compile Include="Executer\Commands\Commands\Settings.cs" />
+    <Compile Include="Executer\Commands\Commands\Type.cs" />
     <Compile Include="Executer\LaunchScripParser.cs" />
     <Compile Include="Executer\Commands\Commands\Snap.cs" />
     <Compile Include="Executer\Commands\Commands\Tokenizer.cs" />
