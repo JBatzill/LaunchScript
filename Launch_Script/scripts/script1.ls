@@ -28,8 +28,9 @@
 #delay 2000
 
 browser "www.google.de"
+wait
 delay 1000
 type "hallo popelkopf" "{ENTER}"
 type "{BS}"
 delay 500
-type "{BS}"
+type "trolololololol"

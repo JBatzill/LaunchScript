@@ -52,6 +52,7 @@
     <Compile Include="Executer\Commands\Commands\Launch.cs" />
     <Compile Include="Executer\Commands\Commands\Settings.cs" />
     <Compile Include="Executer\Commands\Commands\Type.cs" />
+    <Compile Include="Executer\Commands\Commands\Wait.cs" />
     <Compile Include="Executer\LaunchScripParser.cs" />
     <Compile Include="Executer\Commands\Commands\Snap.cs" />
     <Compile Include="Executer\Commands\Commands\Tokenizer.cs" />

@@ -42,10 +42,11 @@ namespace Launch_Script.Executer.Commands
     internal class SettingsParser : IParser
     {
         public const string CMD = "settings";
+        #region FILE_LINK
         public const string CMD_SETTINGS_FILELINK = "filelink";
         public const string CMD_SETTINGS_FILELINK_ON = "on";
         public const string CMD_SETTINGS_FILELINK_OFF = "off";
-       
+        #endregion FILE_LINK
         public override string command()
         {
             return SettingsParser.CMD;
